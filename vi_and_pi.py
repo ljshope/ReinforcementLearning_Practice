@@ -227,10 +227,10 @@ if __name__ == "__main__":
     env = gym.make("Deterministic-4x4-FrozenLake-v0")
     #env = gym.make("Stochastic-4x4-FrozenLake-v0")
 
-    print("\n" + "-"*25 + "\nBeginning Policy Iteration\n" + "-"*25)
+    #print("\n" + "-"*25 + "\nBeginning Policy Iteration\n" + "-"*25)
 
-    V_pi, p_pi = policy_iteration(env.P, env.nS, env.nA, gamma=0.9, max_iteration = 1000, tol=1e-3)
-    render_single(env, p_pi, 100)
+    #V_pi, p_pi = policy_iteration(env.P, env.nS, env.nA, gamma=0.9, max_iteration = 1000, tol=1e-3)
+    #render_single(env, p_pi, 100)
 
     print("\n" + "-"*25 + "\nBeginning Value Iteration\n" + "-"*25)
 
